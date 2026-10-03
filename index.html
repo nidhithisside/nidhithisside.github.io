@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nidhi | Marketing Portfolio</title>
+  <meta name="description" content="Nidhi: brand strategist, content creator and performance marketer. Senior Manager, Direct & Institutional Marketing at DSP Mutual Fund.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Decorative background blobs -->
+  <div class="blob blob-1" aria-hidden="true"></div>
+  <div class="blob blob-2" aria-hidden="true"></div>
+  <div class="blob blob-3" aria-hidden="true"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">Nidhi<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#campaigns">Campaigns</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <p class="hero-hello reveal">Hi there, I'm</p>
+      <h1 class="hero-name reveal">Nidhi</h1>
+      <p class="hero-role reveal">
+        <span class="rotator" id="rotator">Brand Strategist</span>
+      </p>
+      <p class="hero-sub reveal">
+        Senior Manager, Direct &amp; Institutional Marketing at <strong>DSP Mutual Fund</strong>.
+        I turn complex investing ideas into campaigns, content and conversations that people actually engage with.
+      </p>
+      <div class="hero-buttons reveal">
+        <a href="#campaigns" class="btn btn-primary">See My Work</a>
+        <a href="Nidhi_Resume_updated.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+      <p class="hero-location reveal">📍 Mumbai, India</p>
+    </section>
+
+    <!-- ========== IMPACT NUMBERS ========== -->
+    <section class="stats" aria-label="Impact in numbers">
+      <div class="stat reveal">
+        <p class="stat-num"><span class="counter" data-target="882" data-prefix="₹" data-suffix=" Cr">0</span></p>
+        <p class="stat-label">AUM raised by a single NFO campaign</p>
+      </div>
+      <div class="stat reveal">
+        <p class="stat-num"><span class="counter" data-target="2.61" data-decimals="2" data-suffix=" Cr">0</span></p>
+        <p class="stat-label">LinkedIn impressions from posts I wrote</p>
+      </div>
+      <div class="stat reveal">
+        <p class="stat-num"><span class="counter" data-target="15" data-suffix="+">0</span></p>
+        <p class="stat-label">NFO / ETF launches marketed</p>
+      </div>
+      <div class="stat reveal">
+        <p class="stat-num"><span class="counter" data-target="10" data-prefix="~" data-suffix="%">0</span></p>
+        <p class="stat-label">CTR on LinkedIn content</p>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section" id="about">
+      <h2 class="section-title reveal">About <span class="grad">me</span></h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a marketer who works across <strong>digital marketing, brand strategy and content</strong>.
+            At DSP Mutual Fund, one of India's oldest asset managers, I take a campaign from the first idea
+            to launch, then track how it performs.
+          </p>
+          <p>
+            I've worked on investor-education campaigns, flagship YouTube interview shows, performance
+            campaigns with fintech partners such as Zepto, Cred and Paytm Money, and the content
+            for DSP GIFT City, its offshore investor business.
+          </p>
+          <p>
+            I hold a <strong>PGDM in Marketing from Goa Institute of Management</strong>, where I finished in the
+            top 10% of my batch. I'm looking to bring brand, content and growth work into consumer or financial-services marketing.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="mini-card reveal" style="--c: var(--coral)">
+            <span class="mini-icon">🎯</span>
+            <h3>Strategy</h3>
+            <p>Brand and campaign strategy for 15+ fund launches</p>
+          </div>
+          <div class="mini-card reveal" style="--c: var(--magenta)">
+            <span class="mini-icon">🎬</span>
+            <h3>Content</h3>
+            <p>Video, social posts, booklets and webinars</p>
+          </div>
+          <div class="mini-card reveal" style="--c: var(--violet)">
+            <span class="mini-icon">📈</span>
+            <h3>Performance</h3>
+            <p>Google Ads, affiliate, email and WhatsApp campaigns</p>
+          </div>
+          <div class="mini-card reveal" style="--c: var(--sun)">
+            <span class="mini-icon">🤝</span>
+            <h3>Partners</h3>
+            <p>Managing 13+ agency and media partners</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CAMPAIGNS ========== -->
+    <section class="section" id="campaigns">
+      <h2 class="section-title reveal">Featured <span class="grad">campaigns</span></h2>
+      <p class="section-intro reveal">Some of the work I've conceptualized, produced or run.</p>
+
+      <div class="filters reveal" role="group" aria-label="Filter campaigns">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="brand">Brand</button>
+        <button class="filter" data-filter="digital">Digital</button>
+        <button class="filter" data-filter="video">Video</button>
+        <button class="filter" data-filter="content">Content</button>
+        <button class="filter" data-filter="events">Events</button>
+      </div>
+
+      <div class="campaign-grid">
+        <article class="campaign reveal" data-cat="brand" style="--c1: var(--coral); --c2: var(--magenta)">
+          <div class="campaign-top"><span class="tag">Brand</span><span class="campaign-emoji">🌀</span></div>
+          <h3>"We Don't Know"</h3>
+          <p>A brand campaign about market uncertainty. It made "we don't know where markets will go" an honest, reassuring message from DSP.</p>
+          <p class="campaign-metric">Concept → creative → execution</p>
+        </article>
+
+        <article class="campaign reveal" data-cat="brand" style="--c1: var(--magenta); --c2: var(--violet)">
+          <div class="campaign-top"><span class="tag">Brand</span><span class="campaign-emoji">💪</span></div>
+          <h3>"I Will Not Stop" &amp; "No More"</h3>
+          <p>Brand-led investor campaigns. "I Will Not Stop" encouraged investors to keep their SIPs going when markets fell.</p>
+          <p class="campaign-metric">Built around DSP's brand values</p>
+        </article>
+
+        <article class="campaign reveal" data-cat="digital" style="--c1: var(--sun); --c2: var(--coral)">
+          <div class="campaign-top"><span class="tag">Digital</span><span class="campaign-emoji">🎟️</span></div>
+          <h3>"Be Un-Average" scratch cards</h3>
+          <p>An interactive series of scratch cards on the DSP homepage and mobile app, each busting a common investing myth.</p>
+          <p class="campaign-metric">~3% CTR</p>
+        </article>
+
+        <article class="campaign reveal" data-cat="video" style="--c1: var(--violet); --c2: var(--sky)">
+          <div class="campaign-top"><span class="tag">Video</span><span class="campaign-emoji">🎙️</span></div>
+          <h3>The Ramneek Kundra Show &amp; Inside the Family Office</h3>
+          <p>DSP's two flagship interview series. I conceptualize, shoot and distribute them end to end, presenting DSP's leaders as thought leaders.</p>
+          <p class="campaign-metric">Plus live YouTube webinars with 657+ views</p>
+        </article>
+
+        <article class="campaign reveal" data-cat="content" style="--c1: var(--sky); --c2: var(--mint)">
+          <div class="campaign-top"><span class="tag">Content</span><span class="campaign-emoji">🌏</span></div>
+          <h3>DSP GIFT City content</h3>
+          <p>I run the content for DSP's offshore investor business on my own: its YouTube channel, video shoots, a Zoom webinar and quarterly investor booklets.</p>
+          <p class="campaign-metric">22.8L impressions · 1.88L+ clicks · 600+ webinar attendees</p>
+        </article>
+
+        <article class="campaign reveal" data-cat="digital" style="--c1: var(--mint); --c2: var(--sun)">
+          <div class="campaign-top"><span class="tag">Digital</span><span class="campaign-emoji">🗣️</span></div>
+          <h3>Arthvaani regional-language push</h3>
+          <p>Performance campaigns in regional languages that recovered engagement across the South and other non-Hindi regions, run alongside affiliate partners such as Zepto, Cred and Moneycontrol.</p>
+          <p class="campaign-metric">Google Search, Display and affiliate</p>
+        </article>
+
+        <article class="campaign reveal" data-cat="brand digital" style="--c1: var(--coral); --c2: var(--sun)">
+          <div class="campaign-top"><span class="tag">Integrated</span><span class="campaign-emoji">🚀</span></div>
+          <h3>NFO &amp; ETF launch campaigns</h3>
+          <p>Integrated campaigns for 15+ fund launches across email, social, WhatsApp, reels, in-app nudges and homepage banners.</p>
+          <p class="campaign-metric">₹882 Cr raised by DSP Multi Asset Omni FoF</p>
+        </article>
+
+        <article class="campaign reveal" data-cat="events" style="--c1: var(--magenta); --c2: var(--coral)">
+          <div class="campaign-top"><span class="tag">Events</span><span class="campaign-emoji">🎪</span></div>
+          <h3>Groww India Investor Festival 2026</h3>
+          <p>I led the design collaterals and vendor coordination for DSP's booth at the Jio World Convention Centre, Mumbai.</p>
+          <p class="campaign-metric">400+ footfall</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section class="section" id="experience">
+      <h2 class="section-title reveal">Where I've <span class="grad">worked</span></h2>
+
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot" style="--c: var(--magenta)"></div>
+          <div class="tl-card">
+            <p class="tl-date">April 2025 – Present · Mumbai</p>
+            <h3>Senior Manager, Direct &amp; Institutional Marketing</h3>
+            <p class="tl-company">DSP Mutual Fund</p>
+            <ul>
+              <li><strong>Digital:</strong> Google Search and Display, affiliate partnerships with fintech apps, WhatsApp, and email campaigns (~2% CTR).</li>
+              <li><strong>LinkedIn:</strong> grew average impressions per post from ~1.08L to ~1.65L. My own posts drove 2.61 Cr impressions and 4.6L+ clicks.</li>
+              <li><strong>Brand:</strong> own the brand strategy and content for 15+ NFO launches, publishing 15+ pieces a month on LinkedIn, X and YouTube.</li>
+              <li><strong>Video:</strong> produce NFO launch videos, investor webinars and two flagship interview series.</li>
+              <li><strong>Partners:</strong> negotiate pricing with 13+ agency and media partners. I design in Illustrator and Canva and edit video in VN.</li>
+              <li><strong>GIFT City:</strong> run its content on my own: YouTube, webinars, LinkedIn and investor booklets (1,000+ copies).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot" style="--c: var(--violet)"></div>
+          <div class="tl-card">
+            <p class="tl-date">April 2024 – June 2024 · Pune</p>
+            <h3>HR Summer Intern, Compensation &amp; Benefits</h3>
+            <p class="tl-company">Merck Group</p>
+            <ul>
+              <li>Designed and ran a benefits survey across ~4,000 employees in 4 business verticals, with a 31% response rate.</li>
+              <li>Analyzed the results by demographic segment. 4–5 of my recommendations were adopted, and Merck recognized the report at a global level.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="section" id="skills">
+      <h2 class="section-title reveal">Skills &amp; <span class="grad">toolkit</span></h2>
+      <div class="skills-grid">
+        <div class="skill-group reveal" style="--c: var(--coral)">
+          <h3>Marketing</h3>
+          <div class="chips">
+            <span>Brand Strategy</span><span>Performance Marketing</span><span>Email Marketing</span>
+            <span>Content Marketing</span><span>Social Media</span><span>Campaign Optimization</span>
+            <span>Market Research</span><span>Agency Management</span>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--c: var(--magenta)">
+          <h3>Design &amp; Video</h3>
+          <div class="chips">
+            <span>Canva</span><span>Adobe Photoshop</span><span>Illustrator</span>
+            <span>InDesign</span><span>VN Video Editing</span>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--c: var(--violet)">
+          <h3>Analytics &amp; Tech</h3>
+          <div class="chips">
+            <span>Google Analytics</span><span>Power BI</span><span>Tableau</span>
+            <span>Excel Dashboards</span><span>SQL</span><span>Python</span>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--c: var(--sky)">
+          <h3>AI Tools</h3>
+          <div class="chips">
+            <span>Claude for Marketers</span><span>Prompt Engineering</span><span>AI Content Tools</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDUCATION & CERTIFICATIONS ========== -->
+    <section class="section" id="education">
+      <h2 class="section-title reveal">Education &amp; <span class="grad">certifications</span></h2>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <span class="edu-icon">🎓</span>
+          <h3>PGDM, Marketing</h3>
+          <p>Goa Institute of Management · 2023–2025</p>
+          <span class="badge">Top 10% of Batch</span>
+        </div>
+        <div class="edu-card reveal">
+          <span class="edu-icon">📚</span>
+          <h3>B.A., Political Science</h3>
+          <p>Gujarat University · 2018–2021</p>
+        </div>
+      </div>
+      <div class="certs reveal">
+        <span>NISM-Series-V-A: Mutual Fund Distributors · 2025</span>
+        <span>Google Analytics 4 · 2025</span>
+        <span>Adobe CC: Photoshop, Illustrator, InDesign · 2026</span>
+        <span>Complete Python Bootcamp · 2026</span>
+        <span>PL-300: Power BI Analyst · 2024</span>
+        <span>All-in-One Excel · 2024</span>
+        <span>SQL Essential Training (NASBA) · 2024</span>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section contact" id="contact">
+      <div class="contact-box reveal">
+        <h2>Let's create something <span class="grad-light">memorable</span>.</h2>
+        <p>Open to roles in brand, content and growth marketing. I'd love to hear from you.</p>
+        <div class="contact-links">
+          <a href="mailto:nidhi.career23@gmail.com" class="btn btn-light">✉️ nidhi.career23@gmail.com</a>
+          <!-- TODO: replace the # below with your LinkedIn profile URL -->
+          <a href="#" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/nidhithisside" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://canva.link/bdr3ibwbi57gr0s" class="btn btn-ghost" target="_blank" rel="noopener">Canva Portfolio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed &amp; built by Nidhi · © <span id="year">2026</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
